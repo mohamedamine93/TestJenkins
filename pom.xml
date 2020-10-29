@@ -10,7 +10,7 @@
 
   <distributionManagement>
 	<snapshotRepository>
-		<id>nexus-snapshots</id>
+		<id>maven-snapshots</id>
 		<url>http://192.168.43.188:8081/repository/maven-snapshots</url>
 	</snapshotRepository>
 	<!--
@@ -47,6 +47,20 @@
    </build>
 	
   <dependencies>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-plugin-api</artifactId>
+      <version>3.0</version>
+    </dependency>
+ 
+    <!-- dependencies to annotations -->
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+      <version>3.4</version>
+      <scope>provided</scope>
+    </dependency>
+	  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
