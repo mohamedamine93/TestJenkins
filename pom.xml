@@ -3,14 +3,14 @@
   <groupId>tn.exa</groupId>
   <artifactId>TestJenkins</artifactId>
   <packaging>jar</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <name>TestJenkins</name>
   <url>http://maven.apache.org</url>
   <scm>
     <connection>scm:git:https://github.com/mohamedamine93/TestJenkins.git</connection>
     <developerConnection>scm:git:https://github.com/mohamedamine93/TestJenkins.git</developerConnection>
     <url>https://github.com/mohamedamine93/TestJenkins.git</url>
-    <tag>HEAD</tag>
+    <tag>TestJenkins-1.1</tag>
   </scm>
 
   <distributionManagement>
