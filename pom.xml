@@ -20,7 +20,7 @@
 	</snapshotRepository>
 	  
 	<repository>
-    		<id>releases</id>
+    		<id>maven-releases</id>
     		<url>http://192.168.43.188:8081/repository/maven-releases/</url>
   	</repository>
   </distributionManagement>
