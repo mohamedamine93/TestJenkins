@@ -68,7 +68,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>tn.exa</mainClass>
+            <mainClass>tn.exa.TestJenkins</mainClass>
           </manifest>
         </archive>
       </configuration>
